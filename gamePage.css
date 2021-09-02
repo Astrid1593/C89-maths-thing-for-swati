@@ -1,0 +1,46 @@
+#checkButton{
+    color: white;
+    background-color: rgb(86, 108, 233);
+    transition: all 0.2s ease-in-out;
+    border-width: 0px;
+    border-radius: 3px;
+    width: 80px;
+    height: 26px;
+    font-size: 20px;
+}
+#checkButton:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+input{
+    height: 25px;
+    text-align: center;
+}
+#title{
+    color: white;
+    font-size: 40px;
+}
+.sendButton{
+    background-color:rgb(94, 194, 48);
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border-width: 0px;
+    border-radius: 3px;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+.sendButton:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+}
+#questionTurn, #answerTurn{
+    font-size: 30px;
+}
+#bottomIMG{
+    width: 100px;
+    height: 100px;
+}
